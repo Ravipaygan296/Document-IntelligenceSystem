@@ -117,7 +117,7 @@ documind-ai/
 
 ---
 
-## 🔬 How RAG Works (For Interviews)
+## 🔬 How RAG Works
 
 **The Problem with plain LLMs:**
 LLMs have a knowledge cutoff and can't access your private documents.
@@ -130,16 +130,6 @@ LLMs have a knowledge cutoff and can't access your private documents.
 Semantic embeddings capture *meaning*, not just exact words. "revenue decline" will match chunks about "sales dropped" even without shared keywords.
 
 ---
-
-## 🎯 Resume Talking Points
-
-- *"Built end-to-end RAG pipeline from scratch without LangChain abstractions — implemented custom chunking, FAISS indexing, and prompt engineering"*
-- *"Used cosine similarity with FAISS IndexFlatIP for sub-millisecond retrieval across 1000+ document chunks"*
-- *"Integrated dual LLM support (Groq/Gemini) with provider-agnostic architecture"*
-- *"Reduced hallucination by constraining LLM to retrieved context only, with source attribution"*
-
----
-
 ## 🛠 Possible Extensions
 
 - [ ] Add chat memory (multi-turn conversations)
